@@ -34,7 +34,7 @@ builder.Services.AddScoped<IApiClientService, ApiClient>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<ICategoriesRepository, CategoriesRepository>();
-builder.Services.AddScoped<IServicesRepository, ServicesRepository>();  
+builder.Services.AddScoped<IServicesRepository, ServicesRepository>();
 
 
 

@@ -18,6 +18,7 @@ namespace CSharks.NFEs.Domain.Models
         [Required(ErrorMessage = "Digite o valor do serviço")]
         public double Aliquot { get; set; }
 
+
         [Required(ErrorMessage = "Selecione uma categoria")]
         public Guid CategoryId { get; set; }
 		//public virtual Category? Category { get; set; }

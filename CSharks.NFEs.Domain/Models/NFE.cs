@@ -37,6 +37,6 @@ namespace CSharks.NFEs.Domain.Models
 		public virtual Category? Category { get; set; }
 	
 		public int ClientId { get; set; }
-		public virtual Client? Client { get; set; }
+		public virtual Client? Client { get; set; }x
 		}
 }
